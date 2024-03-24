@@ -1,0 +1,54 @@
+<shapes>
+<shape name="parallelogram" aspect="variable" strokewidth="inherit">
+	<background>
+		<path>
+			<move x="20" y="0"/>
+			<line x="100" y="0"/>
+			<line x="80" y="100"/>
+			<line x="0" y="100"/>
+			<close/>
+		</path>
+	</background>
+	<foreground>
+		<fillstroke/>
+	</foreground>
+</shape>
+
+<shape name="roundrect" aspect="variable" strokewidth="inherit">
+	<background>
+		<path>
+		
+			<move x="20" y="0"/>
+			<line x="80" y="0"/>
+			<arc rx="20" ry="50" x-axis-rotation="0" large-arc-flag="1" sweep-flag="1" x="80" y="100"/>
+			<line x="20" y="100"/>
+			<arc rx="20" ry="50" x-axis-rotation="0" large-arc-flag="1" sweep-flag="1" x="20" y="0"/>
+			<close/>
+		</path>
+	</background>
+	<foreground>
+		<fillstroke/>
+	</foreground>
+</shape>
+
+<shape name="roundrect-un" aspect="variable" strokewidth="inherit">
+	<background>
+		<path>
+		
+			<move x="20" y="0"/>
+			<line x="80" y="0"/>
+			<arc rx="20" ry="50" x-axis-rotation="0" large-arc-flag="1" sweep-flag="1" x="80" y="100"/>
+			<line x="50" y="100"/>
+			<line x="55" y="110"/>
+			<line x="45" y="110"/>
+			<line x="50" y="100"/>
+			<line x="20" y="100"/>
+			<arc rx="20" ry="50" x-axis-rotation="0" large-arc-flag="1" sweep-flag="1" x="20" y="0"/>
+			<close/>
+		</path>
+	</background>
+	<foreground>
+		<fillstroke/>
+	</foreground>
+</shape>
+</shapes>

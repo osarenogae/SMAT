@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="RiskMatrixModel" nsURI="uk.gov.hscic.CareProcessTool.RiskMatrixModel"
+    nsPrefix="hscicCareProcessTool.RiskMatrix">
+  <eClassifiers xsi:type="ecore:EClass" name="RiskMatrix">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="likelihoodlevel" upperBound="-1"
+        eType="#//LikelihoodLevel" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="riskratinginstance" upperBound="-1"
+        eType="#//RiskRatingInstance" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="severitylevel" upperBound="-1"
+        eType="#//SeverityLevel" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="minUnacceptableRisk" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LikelihoodLevel">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="levelName" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="levelIndex" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="riskratinginstance" lowerBound="1"
+        upperBound="-1" eType="#//RiskRatingInstance" eOpposite="#//RiskRatingInstance/likelihoodlevel"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RiskRatingInstance">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="riskValue" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="likelihoodlevel" lowerBound="1"
+        eType="#//LikelihoodLevel" eOpposite="#//LikelihoodLevel/riskratinginstance"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="severitylevel" lowerBound="1"
+        eType="#//SeverityLevel" eOpposite="#//SeverityLevel/riskratinginstance"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SeverityLevel">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="levelIndex" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="levelName" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="riskratinginstance" lowerBound="1"
+        upperBound="-1" eType="#//RiskRatingInstance" eOpposite="#//RiskRatingInstance/severitylevel"/>
+  </eClassifiers>
+</ecore:EPackage>

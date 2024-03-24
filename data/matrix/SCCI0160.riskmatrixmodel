@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hscicCareProcessTool.RiskMatrix:RiskMatrix xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:hscicCareProcessTool.RiskMatrix="uk.gov.hscic.CareProcessTool.RiskMatrixModel" minUnacceptableRisk="5">
+  <likelihoodlevel levelName="Very High" riskratinginstance="//@riskratinginstance.4 //@riskratinginstance.9 //@riskratinginstance.14 //@riskratinginstance.19 //@riskratinginstance.24"/>
+  <likelihoodlevel levelName="High" levelIndex="1" riskratinginstance="//@riskratinginstance.3 //@riskratinginstance.8 //@riskratinginstance.13 //@riskratinginstance.18 //@riskratinginstance.23"/>
+  <likelihoodlevel levelName="Medium" levelIndex="2" riskratinginstance="//@riskratinginstance.2 //@riskratinginstance.7 //@riskratinginstance.12 //@riskratinginstance.17 //@riskratinginstance.22"/>
+  <likelihoodlevel levelName="Low" levelIndex="3" riskratinginstance="//@riskratinginstance.1 //@riskratinginstance.6 //@riskratinginstance.11 //@riskratinginstance.16 //@riskratinginstance.21"/>
+  <likelihoodlevel levelName="Very Low" levelIndex="4" riskratinginstance="//@riskratinginstance.0 //@riskratinginstance.5 //@riskratinginstance.10 //@riskratinginstance.15 //@riskratinginstance.20"/>
+  <riskratinginstance riskValue="1" likelihoodlevel="//@likelihoodlevel.4" severitylevel="//@severitylevel.0"/>
+  <riskratinginstance riskValue="1" likelihoodlevel="//@likelihoodlevel.3" severitylevel="//@severitylevel.0"/>
+  <riskratinginstance riskValue="2" likelihoodlevel="//@likelihoodlevel.2" severitylevel="//@severitylevel.0"/>
+  <riskratinginstance riskValue="2" likelihoodlevel="//@likelihoodlevel.1" severitylevel="//@severitylevel.0"/>
+  <riskratinginstance riskValue="3" likelihoodlevel="//@likelihoodlevel.0" severitylevel="//@severitylevel.0"/>
+  <riskratinginstance riskValue="1" likelihoodlevel="//@likelihoodlevel.4" severitylevel="//@severitylevel.1"/>
+  <riskratinginstance riskValue="2" likelihoodlevel="//@likelihoodlevel.3" severitylevel="//@severitylevel.1"/>
+  <riskratinginstance riskValue="2" likelihoodlevel="//@likelihoodlevel.2" severitylevel="//@severitylevel.1"/>
+  <riskratinginstance riskValue="3" likelihoodlevel="//@likelihoodlevel.1" severitylevel="//@severitylevel.1"/>
+  <riskratinginstance riskValue="4" likelihoodlevel="//@likelihoodlevel.0" severitylevel="//@severitylevel.1"/>
+  <riskratinginstance riskValue="2" likelihoodlevel="//@likelihoodlevel.4" severitylevel="//@severitylevel.2"/>
+  <riskratinginstance riskValue="2" likelihoodlevel="//@likelihoodlevel.3" severitylevel="//@severitylevel.2"/>
+  <riskratinginstance riskValue="3" likelihoodlevel="//@likelihoodlevel.2" severitylevel="//@severitylevel.2"/>
+  <riskratinginstance riskValue="3" likelihoodlevel="//@likelihoodlevel.1" severitylevel="//@severitylevel.2"/>
+  <riskratinginstance riskValue="4" likelihoodlevel="//@likelihoodlevel.0" severitylevel="//@severitylevel.2"/>
+  <riskratinginstance riskValue="2" likelihoodlevel="//@likelihoodlevel.4" severitylevel="//@severitylevel.3"/>
+  <riskratinginstance riskValue="3" likelihoodlevel="//@likelihoodlevel.3" severitylevel="//@severitylevel.3"/>
+  <riskratinginstance riskValue="3" likelihoodlevel="//@likelihoodlevel.2" severitylevel="//@severitylevel.3"/>
+  <riskratinginstance riskValue="4" likelihoodlevel="//@likelihoodlevel.1" severitylevel="//@severitylevel.3"/>
+  <riskratinginstance riskValue="5" likelihoodlevel="//@likelihoodlevel.0" severitylevel="//@severitylevel.3"/>
+  <riskratinginstance riskValue="3" likelihoodlevel="//@likelihoodlevel.4" severitylevel="//@severitylevel.4"/>
+  <riskratinginstance riskValue="4" likelihoodlevel="//@likelihoodlevel.3" severitylevel="//@severitylevel.4"/>
+  <riskratinginstance riskValue="4" likelihoodlevel="//@likelihoodlevel.2" severitylevel="//@severitylevel.4"/>
+  <riskratinginstance riskValue="5" likelihoodlevel="//@likelihoodlevel.1" severitylevel="//@severitylevel.4"/>
+  <riskratinginstance riskValue="5" likelihoodlevel="//@likelihoodlevel.0" severitylevel="//@severitylevel.4"/>
+  <severitylevel levelName="Minor" riskratinginstance="//@riskratinginstance.0 //@riskratinginstance.1 //@riskratinginstance.2 //@riskratinginstance.3 //@riskratinginstance.4"/>
+  <severitylevel levelIndex="1" levelName="Significant" riskratinginstance="//@riskratinginstance.5 //@riskratinginstance.6 //@riskratinginstance.7 //@riskratinginstance.8 //@riskratinginstance.9"/>
+  <severitylevel levelIndex="2" levelName="Considerable" riskratinginstance="//@riskratinginstance.10 //@riskratinginstance.11 //@riskratinginstance.12 //@riskratinginstance.13 //@riskratinginstance.14"/>
+  <severitylevel levelIndex="3" levelName="Major" riskratinginstance="//@riskratinginstance.15 //@riskratinginstance.16 //@riskratinginstance.17 //@riskratinginstance.18 //@riskratinginstance.19"/>
+  <severitylevel levelIndex="4" levelName="Catastrophic" riskratinginstance="//@riskratinginstance.20 //@riskratinginstance.21 //@riskratinginstance.22 //@riskratinginstance.23 //@riskratinginstance.24"/>
+</hscicCareProcessTool.RiskMatrix:RiskMatrix>
